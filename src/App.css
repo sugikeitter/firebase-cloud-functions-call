@@ -8,17 +8,6 @@
   pointer-events: none;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
 .App-link {
   color: #61dafb;
 }
@@ -30,4 +19,54 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.functionlist-item {
+  color: #2d8fdd;
+  border-left: solid 6px #2d8fdd;/*左側の線*/
+  background: #f1f8ff;/*背景色*/
+  margin-bottom: 3px;/*下のバーとの余白*/
+  line-height: 4em;
+  padding: 0.5em;
+}
+
+.btn-stitch {
+  display: inline-block;
+  padding: 0.5em 1em;
+  margin-left: 2em;
+  text-decoration: none;
+  background: #668ad8;
+  color: #FFF;
+  border-radius: 4px;
+  box-shadow: 0px 0px 0px 5px #668ad8;
+  border: dashed 1px #FFF;
+  cursor: pointer; /* カーソル当てた時に指マークにする */
+}
+
+.btn-stitch:hover {
+  border: dotted 1px #FFF;
+}
+
+table{
+  border-collapse:collapse;
+  margin:0 auto;
+}
+th{
+  border-bottom:2px solid #000;
+}
+td,th{
+  padding:10px;
+  border-bottom:1px solid #666;
+}
+
+.function-result {
+  width: 100px;
+}
+
+.function-time {
+  width: 100px;
+}
+
+.function-message {
+  width: 300px;
 }

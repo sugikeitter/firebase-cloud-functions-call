@@ -6,6 +6,6 @@ export default functions
   .onCall((data, context) => {
     const name = data.name;
     return {
-      message: "Hello, " + name + ". httpsOnCallFrom 🗼"
+      message: "Hello, " + name + ". onCallFrom 🗼"
     }
   });
